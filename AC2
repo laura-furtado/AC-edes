@@ -7,8 +7,7 @@ public class AC2 {
 	public static void main(String[]arg) {
 		Scanner teclado = new Scanner(System.in);
 		int a, b, c;
-		String x;
-		x = x;
+		int x;
 		System.out.println("Insira um valor para a: ");
 		a = teclado.nextInt();
 		System.out.println("Insira um valor para b: ");
@@ -19,7 +18,9 @@ public class AC2 {
 		c = teclado.nextInt();
 		
 		//Impressão
-		System.out.println(a*(x*x) + b*(x)+ c);
+		System.out.println(a+"x^2" + b+"x"+ c);
+		System.out.println((-b)+);
+		java.lang.Math.sqrt()
 }
 	}
 //ax^2+bx+c
